@@ -1,0 +1,33 @@
+[Scenario]
+Product=LoadRunner Controller
+Version=2023.0.0.0
+Path=C:\Users\SD070635\OneDrive - Cerner Corporation\Documents\Fiddler2\Captures\CRMRecruit_Blazedemo\Scenario\RecruitCRM_Assignment_Scenario.lrs
+Subject=RecruitCRM_Assignment_Scenario
+Result_file=C:\Users\SD070635\OneDrive - Cerner Corporation\Documents\Fiddler2\Captures\CRMRecruit_Blazedemo\RecruitCRM_Assignment_LoadTesting_Scenario_20230416\RecruitCRM_Assignment_LoadTesting_Scenario_20230416.lrr
+Description=
+ResultName=RecruitCRM_Assignment_LoadTesting_Scenario_20230416
+Time_Zone=-19800
+Start_time=1681652524
+Daylight_Bias=0
+Stop_time=1681658259
+[Configuration]
+Public_local=1
+Is_mix=1
+Is_runner_file=0
+Runner_file=
+[Running_mode]
+Start_reason=By command
+Stop_reason=By command
+[Data Collection]
+FullData=1
+[Scenario_summary]
+Scenario Type=Manual Scenario
+Goal Profile Name=Schedule 1
+Mode=Scenario Scheduling
+Scenario Duration=Start 10 Vusers: 3 every 00:00:01 (HH:MM:SS); Run for 00:15:00 (HH:MM:SS); Start 15 Vusers: 3 every 00:00:01 (HH:MM:SS); Run for 00:15:00 (HH:MM:SS); Start 15 Vusers simultaneously; Run for 00:30:00 (HH:MM:SS); Stop all Vusers: 3 every 00:00:01 (HH:MM:SS)
+Load Behavior=Initialize each Vuser just before it runs
+Global Schedule=ST10_3E1;R900;ST15_3E1;R900;ST15;R1800;SP40_3E1;
+[Scripts]
+CRMRecruit_Blazedemo=C:\Users\SD070635\OneDrive - Cerner Corporation\Documents\Fiddler2\Captures\CRMRecruit_Blazedemo\CRMRecruit_Blazedemo.usr
+[Scripts_types]
+CRMRecruit_Blazedemo=Multi+QTWeb

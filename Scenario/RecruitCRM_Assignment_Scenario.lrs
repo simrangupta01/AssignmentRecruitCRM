@@ -1,0 +1,1842 @@
+
+{Product
+Product=LoadRunner Controller
+Version=2023.0.0.0
+}
+
+{ScenarioGeneralConfig
+ScenarioType=2
+Is_mix=1
+Is_runner_file=0
+Runner_file=
+Host_kill_type=0
+GlobalDir=
+}
+
+{ScenarioPrivateConfig
+Path=C:\Users\SD070635\OneDrive - Cerner Corporation\Documents\Fiddler2\Captures\CRMRecruit_Blazedemo\Scenario\RecruitCRM_Assignment_Scenario.lrs
+Author=SD070635
+Subject=RecruitCRM_Assignment_Scenario
+Description=
+Hosts=1
+Scripts=1
+Groups=1
+Vusers=40
+Tranzactions=4
+Rendezvous=0
+Result_file=C:\Users\SD070635\OneDrive - Cerner Corporation\Documents\Fiddler2\Captures\CRMRecruit_Blazedemo\RecruitCRM_Assignment_LoadTesting_Scenario_20230417\RecruitCRM_Assignment_LoadTesting_Scenario_20230417.lrr
+ResCleanName=RecruitCRM_Assignment_LoadTesting_Scenario_20230417
+ResSymName=
+DEFAULT_NFS_LESS_MODE=1
+AutoSetResults=0
+AutoOverwriteResults=0
+BaseResultsName=RecruitCRM_Assignment_LoadTesting_Scenario_20230417
+MaxVuserSeedNumberUsed=0
+PlannedNumOfVusers=40
+PrivatePlannedNumOfVusers=40
+ManualControlDistributionType=-1
+ManualControlAutoAddVusers=1
+Tranzactions=0
+Vusers=40
+Groups=1
+Rendezvous=0
+Scripts=1
+Hosts=1
+TestDirPath=
+TestDirServer=
+TestDirDatabase=
+TestDirCycle=
+TestDirCycleInstance=
+TestResultsFlag=0
+ScenarioSchedulerMode=1
+ScenarioSchedulerName=Default Schedule
+SuspendScenarioStart=0
+ScenarioStartDelay=0
+ScenarioStartAtTime=58732
+ScenarioStartAtTimeYear=2023
+ScenarioStartAtTimeMonth=4
+ScenarioStartAtTimeDay=16
+GIndexSortType=1
+GIndexAutoSort=0
+SoftKillMode=0
+}
+
+{ScenarioCommonConfig
+GlobalNlq=999
+GlobalNls=999
+HostUnixNLQ=5
+HostWinNLQ=5
+EchoDlgRefresh=1000
+EchoMaxOpen=10
+VuRunTO=120
+VuPauseTO=120
+VuQuitTO=120
+}
+
+{ScenarioIniFlags
+2:DeleteQuotaOfOutputMessages=2000
+3:FlagLimitOutputMessages=1
+4:FlagResetLog=0
+5:OutputIsExported=1
+6:OutputExportError=1
+7:OutputExportWarning=0
+8:OutputExportNotify=0
+9:OutputExportPackSize=100
+10:VuLoadTO=180
+11:VuWatchDog=1
+12:VuElapsedTime=4
+13:VuDefaultVuserPercentageNum=1
+14:HostConnectTO=120
+15:HostDisconnectTO=120
+16:HostUnixLowerLogin=0
+17:DebugMessages=0
+18:DebugLevel=15
+19:AgentLang=0
+20:AgentKeepTmpFiles=0
+21:TransferFilesFuncFlow=0
+22:CommIn=0
+23:CommOut=0
+24:AgentMaxThreadsPerDriver=50
+25:AgentAstraMaxThreadsPerDriver=25
+26:FlushCntrlEve=1
+27:OutputInternalMsgDontChange=0
+28:MaxNetworkMsg=50
+29:OutputAllIsExported=1
+30:PingTimer=4
+31:EnableRandomSeed=0
+32:RandomSeedNum=0
+33:AutomationPollingFrequency=2
+34:WinRunnerKillTimeout=120
+35:EnableIPSpoffing=0
+36:EndNotActiveScenario=1
+38:HostKillQuota=50
+39:EnableTransactionServer=1
+40:EnableLGMonitoring=1
+41:EnableSmartVuserAllocation=0
+42:TransServerFrequency=5
+43:TransServerSendData=1
+44:IPSpoofingRuntimeMode=1
+45:IPSpoofingIPMode=0
+46:InternalEnableTransactionServer=1
+47:VuserStatusTimer=1
+48:DefaultHost=localhost
+49:DefaultGroupSize=1
+50:DefaultSchedulerRunMode=1
+51:VTSL=100
+52:HpsAveragePeriod=60
+53:ScenarioType=2
+54:ViewDebugOutput=0
+55:MonitorsSamplingRateValue=3
+56:MonitorsSendErrors=1
+57:MonitorsDebugMode=0
+58:MonitorsDebugLevel=0
+59:J2EETransactionsBreakdown=1
+60:J2EETransactionsBreakdownRate=1
+61:J2EETransactionsBreakdownMaxVal=1000
+62:WebTransactionsBreakdown=1
+63:WebTransactionsBreakdownRate=1
+64:WebTransactionsBreakdownMaxVal=100
+65:IsOrchid10=0
+66:IsOrchid=0
+67:UseOneErrorEng=1
+68:DontCollateLogs=0
+69:FastAnalysisTimeout=5
+70:SummaryDataSizeLimit=2
+71:MaxOutputUIRowsToShow=10000
+72:MaxOutputMessagesInQueue=10000
+78:AutoRenumberVusersAfterDeletion=0
+82:HostUnixDontUseRSH=1
+83:HostUnixDefaultShell=csh
+84:HostUnixShellCommand=
+94:HostInitQuota=50
+96:ScenarioTestType=0
+97:OverrideRdpFile=0
+98:UserRemoteTmpDir=
+99:DontSendDATFile=0
+100:DontSendDATFileFromShare=0
+101:SendFilesBeforeRun=0
+102:SendFilesBeforeRunTimeout=3600
+103:NunitFrameworkPath=
+104:NVAnalyticsTimeout=600
+}
+
+{HostChief
+
+{localhost
+PLATFORM=Windows 10
+IS_REMOTE_LOGIN=0
+REMOTE_LOGIN=
+IS_LOCAL_LOGIN=0
+LOCAL_LOGIN=
+DONT_USE_RSH=1
+REMOTE_TMP_DIR=
+MAX_VUSER_XL=50000
+MAX_VUSER_RTE=1000
+ALLOW_XL=1
+ALLOW_RTE=1
+MAX_VUSER_RUNNER=1
+LOAD_QUOTA_GLOBAL=50
+KILL_QUOTA_GLOBAL=50
+Enable=1
+RUNNER_FILE_TYPE=0
+RUNNER_FILE=
+USE_FW_MONITOR=0
+NETWORK_PROFILE_ID=0000-0000-0000-0000-0000
+NETWORK_PROFILE_NAME=LoadRunner Default
+EMULATED_LOCATION=None
+HostSettingsEnableRDP=0
+HostSettingsRDPParameters=
+HostSettingsNumberOfTerminals=2
+HostSettingsMaxVuserPerTerminal=50
+HostSettingsEnableTerminal=0
+ HostSettingsReuseTSCnnections=1
+}
+}
+
+{TestChief
+
+{crmrecruit_blazedemo
+UiName=CRMRecruit_Blazedemo
+Type=1
+SubType=Multi+QTWeb
+ScriptType=14
+Path=C:\Users\SD070635\OneDrive - Cerner Corporation\Documents\Fiddler2\Captures\CRMRecruit_Blazedemo\CRMRecruit_Blazedemo.usr
+EmulatedLocation=None
+NVAnalytics=0
+Config=[ModemSpeed]\nEnableModemSpeed=0\nCustomModemSpeed=1000\nEnableCustomModemSpeed=0\nModemSpeed=128000\n\n[WEB]\nCacheAlwaysCheckForNewerPages=0\nAnalogMode="0"\nSearchForImages=1\nDisableNTLM2SS=0\nProxyPassword=""\nMaxSelfMetaRefreshCount=2\nEnableChecks=0\nPrintBufEscape0=0\nAutoTransFileLine=1\nGraphHitsPerSecondHttpStatusCodes=1\nNavigatorUserLanguage="en-US"\nNavigatorBrowserLanguage="en-US"\nBrowserAcceptLanguage=en-US,en;q=0.9\nZlibHeadersInCompressedRequestBody=0\nEnableDynatrace=0\nLogFileWrite=0\nLoadChilEngine=0\nMaxRedirectionDepth=10\nHeavyKDCLoad=0\nProxyUseAutoConfigScript=0\nProxyUseSame=0\nLogMaxResponseSize=100\nProxyUserName=\nJsForTransportRuntimeSize=51200\nSnapshotOnErrorActive=0\nSPNAddNoneDefPort=0\nTreeViewRequestBodyLimit=2047\nScreenAvailHeight="1040"\nRecorderWinCodePage="1252"\nProxyNoLocal=0\nProxyUseProxy=0\nCacheHtmlPages=1\nStartRecordingIsDst="0"\nBrowserType="Microsoft Internet Explorer 4.0"\nEnableJsForTransport=0\nDisableAED=0\nProxyHTTPSPort=0\nKeepAlive=1\nSaveSnapshotResources=0\nFailNonCriticalItem=0\nSPNCNameLookup=0\nOverrideNTLMCreds=0\nJsForTransportStackSize=32\nKeepAliveTimeout=60\nUseCustomAgent=1\nGraphBytesPerSecond=1\nProxyHTTPPort=0\nMaxConnections=0\nRetry401ThinkTime=0\nNavigatorSystemLanguage="en-US"\nUseDataFormatExtensions=0\nProxyPasswordIsEncrypted=false\nProxyHTTPSHost=\nEnableIPCache=0\nLogFileWriteTraceToFile=0\nUserHomePage=""\nWebSyncRetryIntervalMs=1000\nIPVersionPolicy=2\nClearCacheForSimulateNewUser=1\nScreenHeight="1080"\nProxyUseProxyServer=0\nCustomUserAgent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36\nSupportCharset=None\nBrowserLanguageCode=\nEnableSnapshotsInReplay=1\nSimulateCache=1\nStartRecordingGMT="2023/04/16 09:59:52"\nResetContext=1\nIgnoreContentCachingTypes=1\nUTF8InputOutput=0\nWebSocketCallBackTimerIntervalMS=500\nParseHtmlContentType=TEXT\nPrefetchPrerenderCallBackTimerIntervalMS=500\nNetBufSize=12288\nHttpErrorsAsWarnings=0\nUseNativeNTLM=0\nReceiveTimeout=120\nDeleteCacheUnreferencedIterations=1\nLogEnableResponseLimit=0\nPageDownloadTimeout=120\nPrintBufLineLen=99\nBrowser_Type=Microsoft Internet Explorer\nResourcePageTimeoutIsWarning=0\nSimulatePrefetchPrerender=0\nAedUtf8Values=0\nMaxErrorMatchesAsERRORS=10\nConnectTimeout=120\nScreenWidth="1920"\nBrowserAcceptEncoding=gzip, deflate, br\nEnableHTTP2=1\nWinInetReplay=0\nIntegratedAuthentication=0\nPrintNTLMLog=0\nWebSyncRetryTimeoutMs=3000\nProxyAutoConfigScriptURL=\nSSLVersionKey=2\nGraphPagesPerSecond=0\nScreenAvailWidth="1920"\nProxyUseBrowser=0\nProxyHTTPHost=\nBrowserUserAgent=Mozilla/5.0 (compatible; MSIE 10.0; Windows; Trident/6.0)\nHttpVer="1.1"\nPrintSSLLog=0\nProxyBypass=\nBrowserVer=10.0\nWebRecorderVersion="10"\nKeepNonTextMimeType=text/xml;text/plain\nBrowserPlatform=Windows\nUseBrowserAgent=0\nHTTPVer=1.1\n\n[Iterations]\nRandomMax="90"\nRandomMin="60"\nIterationPace="IterationASAP"\nStartEvery="60"\nNumOfIterations="1"\n\n[General]\nAutomaticTransactions=0\nContinueOnError=0\nautomatic_nested_transactions="1"\nXlBridgeTimeout="120"\nUseThreads=1\nDefaultRunLogic=uspIs8.715\nAutomaticTransactionsPerFunc=0\nEncoding="ANSI"\nFailTransOnErrorMsg=0\n\n[Streaming]\nStreamTimeout=30\nSaveStreamSnapshot=0\nStreamSeekMethod=ByVideoSize\nStreamLog=1\nStreamRetryTime=10\n\n[FILTERS]\nIncludeFiltersInList=\nExcludeFiltersInList=\nFilterType=1\n\n[Log]\nMsgClassParameters=0\nLogOptions=LogBrief\nAutoLogBufferSize=1\nIncludeEnvInfo=1\nPrintTimeStamp=0\nMsgClassFull=0\nAutoLog=1\nMsgClassData=0\nLogDetail=0\n\n[ThinkTime]\nOptions=RECORDED\nFactor=1\nThinkTimeRandomHigh=150\nThinkTimeRandomLow=50\nLimit=5\nLimitFlag=1\n\n[Java]\nUseExternalJVM=0\nExternalJREPath=\n\n[RtsConfigfuration]\nAUTMode=1\n
+ConfigUsp=[Profile Actions]\nMercIniTreeFather=""\nMercIniTreeSectionName="Profile Actions"\nProfile Actions name=vuser_init,Action,vuser_end\n\n[RunLogicRunRoot]\nMercIniTreeFather=\nMercIniTreeSectionName=RunLogicRunRoot\nMercIniTreeSons=Action\nName=Run\nRunLogicActionOrder=Action\nRunLogicActionType=VuserRun\nRunLogicNumOfIterations=1\nRunLogicObjectKind=Group\nRunLogicRunMode=Sequential\nRunLogicPaceType=ConstAfter\nRunLogicPaceConstAfterTime=10\nRunLogicPaceConstTime=60\nRunLogicAfterPaceMin=60\nRunLogicAfterPaceMax=90\nRunLogicRandomPaceMin=60\nRunLogicRandomPaceMax=90\n\n[RunLogicErrorHandlerRoot]\nMercIniTreeFather=""\nMercIniTreeSectionName="RunLogicErrorHandlerRoot"\nMercIniTreeSons="vuser_errorhandler"\nName="ErrorHandler"\nRunLogicActionOrder="vuser_errorhandler"\nRunLogicActionType="VuserErrorHandler"\nRunLogicNumOfIterations="1"\nRunLogicObjectKind="Group"\nRunLogicRunMode="Sequential"\n\n[RunLogicErrorHandlerRoot:vuser_errorhandler]\nMercIniTreeFather="RunLogicErrorHandlerRoot"\nMercIniTreeSectionName="vuser_errorhandler"\nName="vuser_errorhandler"\nRunLogicActionType="VuserErrorHandler"\nRunLogicObjectKind="Action"\n\n[RunLogicInitRoot]\nMercIniTreeFather=\nMercIniTreeSectionName=RunLogicInitRoot\nMercIniTreeSons=vuser_init\nName=Init\nRunLogicActionOrder=vuser_init\nRunLogicActionType=VuserInit\nRunLogicNumOfIterations=1\nRunLogicObjectKind=Group\nRunLogicRunMode=Sequential\n\n[RunLogicInitRoot:vuser_init]\nMercIniTreeFather=RunLogicInitRoot\nMercIniTreeSectionName=vuser_init\nName=vuser_init\nRunLogicActionType=VuserInit\nRunLogicObjectKind=Action\n\n[RunLogicRunRoot:Action]\nMercIniTreeFather=RunLogicRunRoot\nMercIniTreeSectionName=Action\nName=Action\nRunLogicActionType=VuserRun\nRunLogicObjectKind=Action\n\n[RunLogicEndRoot]\nMercIniTreeFather=\nMercIniTreeSectionName=RunLogicEndRoot\nMercIniTreeSons=vuser_end\nName=End\nRunLogicActionOrder=vuser_end\nRunLogicActionType=VuserEnd\nRunLogicNumOfIterations=1\nRunLogicObjectKind=Group\nRunLogicRunMode=Sequential\n\n[RunLogicEndRoot:vuser_end]\nMercIniTreeFather=RunLogicEndRoot\nMercIniTreeSectionName=vuser_end\nName=vuser_end\nRunLogicActionType=VuserEnd\nRunLogicObjectKind=Action\n
+Param=
+TDPath=
+TDServer=
+TDDatabase=
+Platform=All
+AstraSubType=0
+Trans=T04_Confirmation
+Trans=T02_FindFlights
+Trans=T01_Launch
+Trans=T03_ChooseFlight
+}
+}
+
+{OnlineMonitor
+[0]
+GraphType=es_kafka_message_rate
+Granularities=-1
+Is_Resource_Graph=0
+GroupName=Kafka Graphs
+GraphTitle=Kafka Message Rate
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=Message rate (messages/sec)
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=SumPerSec
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Displays the rate of messages receiving from Kafka servers.
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Transaction
+ColumnCaption_3=Max
+ColumnCaption_4=Min
+ColumnCaption_5=Avg
+ColumnCaption_6=Std
+ColumnCaption_7=Last
+[1]
+GraphType=es_kafka_throughput
+Granularities=-1
+Is_Resource_Graph=0
+GroupName=Kafka Graphs
+GraphTitle=Kafka Throughput
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=Throughput (Bytes/sec)
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=SumPerSec
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Displays throughput on Kafka servers.
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Transaction
+ColumnCaption_3=Max
+ColumnCaption_4=Min
+ColumnCaption_5=Avg
+ColumnCaption_6=Std
+ColumnCaption_7=Last
+[2]
+GraphType=es_kafka_duration
+Granularities=-1
+Is_Resource_Graph=0
+GroupName=Kafka Graphs
+GraphTitle=Kafka Producer Duration
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=#Duration
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=SumPerSec
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Displays Kafka producer duration.
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Transaction
+ColumnCaption_3=Max
+ColumnCaption_4=Min
+ColumnCaption_5=Avg
+ColumnCaption_6=Std
+ColumnCaption_7=Last
+[3]
+GraphType=es_mqtt_message_rate
+Granularities=-1
+Is_Resource_Graph=0
+GroupName=MQTT Statistic Graphs
+GraphTitle=MQTT Message rate
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=Message rate (messages/sec)
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=SumPerSec
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Displays the rate of messages receiving from MQTT servers.
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Transaction
+ColumnCaption_3=Max
+ColumnCaption_4=Min
+ColumnCaption_5=Avg
+ColumnCaption_6=Std
+ColumnCaption_7=Last
+[4]
+GraphType=es_mqtt_throughput
+Granularities=-1
+Is_Resource_Graph=0
+GroupName=MQTT Statistic Graphs
+GraphTitle=MQTT Throughput
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=Throughput (Bytes/sec)
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=SumPerSec
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Displays throughput on MQTT servers.
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Transaction
+ColumnCaption_3=Max
+ColumnCaption_4=Min
+ColumnCaption_5=Avg
+ColumnCaption_6=Std
+ColumnCaption_7=Last
+[5]
+GraphType=es_mqtt_active_connections
+Granularities=-1
+Is_Resource_Graph=0
+GroupName=MQTT Statistic Graphs
+GraphTitle=MQTT Active connections
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=#Connections
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=Sum
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Displays number of active connections made to MQTT servers.
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Transaction
+ColumnCaption_3=Max
+ColumnCaption_4=Min
+ColumnCaption_5=Avg
+ColumnCaption_6=Std
+ColumnCaption_7=Last
+[6]
+GraphType=es_mqtt_inflight_messages
+Granularities=-1
+Is_Resource_Graph=0
+GroupName=MQTT Statistic Graphs
+GraphTitle=MQTT In-flight messages
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=#Messages
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=Sum
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Displays number of In-flight messages coming from MQTT servers.
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Transaction
+ColumnCaption_3=Max
+ColumnCaption_4=Min
+ColumnCaption_5=Avg
+ColumnCaption_6=Std
+ColumnCaption_7=Last
+[7]
+GraphType=MicSocket_Client
+Granularities=-1
+Is_Resource_Graph=0
+GroupName=Infrastructure Resource Graphs
+GraphTitle=Network Client
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=Resource Value
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=SumPerSec
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Displays the rate of ICMP ping requests.
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Transaction
+ColumnCaption_3=Max
+ColumnCaption_4=Min
+ColumnCaption_5=Avg
+ColumnCaption_6=Std
+ColumnCaption_7=Last
+[8]
+GraphType=es_tr_runtime_vusers
+Granularities=-1
+Is_Resource_Graph=0
+GroupName=Runtime Graphs
+GraphTitle=Running Vusers
+GraphXAxisName=Elapsed Time
+GraphYAxisName=# of Vusers
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=Last
+ShowChaosEvents=YES
+Is_On_Panel=1
+Description=Displays the number of Vusers that executed Vuser scripts, and their status, during each second of a load test. This graph is useful for determining the Vuser load on your server at any given moment.
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Status
+ColumnCaption_3=Max
+ColumnCaption_4=Min
+ColumnCaption_5=Avg
+ColumnCaption_6=Std
+ColumnCaption_7=Last
+[9]
+GraphType=all__data__points__graph
+Granularities=-1
+Is_Resource_Graph=0
+GroupName=Runtime Graphs
+GraphTitle=User Defined Data Points
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=Value
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=Average
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Displays the y-axis against the x-axis for the user data points that were defined in the script.
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Data Point Name
+ColumnCaption_3=Max
+ColumnCaption_4=Min
+ColumnCaption_5=Avg
+ColumnCaption_6=Std
+ColumnCaption_7=Last
+[10]
+GraphType=es_tr_errors_distribution
+Granularities=-1
+Is_Resource_Graph=0
+GroupName=Runtime Graphs
+GraphTitle=Error Statistics
+GraphXAxisName=Elapsed Time
+GraphYAxisName=# of Errors
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=Sum
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Displays details about the number of errors that accrue during each second of the scenario or session step run.
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Error Location
+ColumnCaption_3=Max
+ColumnCaption_4=Min
+ColumnCaption_5=Avg
+ColumnCaption_6=Std
+ColumnCaption_7=Last
+[11]
+GraphType=es_tr_vusers_errors_distribution
+Granularities=-1
+Is_Resource_Graph=0
+GroupName=Runtime Graphs
+GraphTitle=Vusers with Errors
+GraphXAxisName=Elapsed Time
+GraphYAxisName=# of Vusers with specific error
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=Last
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Displays details about the number of Vusers that generate errors during scenario or session step execution.
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Vusers with error
+ColumnCaption_3=Max
+ColumnCaption_4=Min
+ColumnCaption_5=Avg
+ColumnCaption_6=Std
+ColumnCaption_7=Last
+[12]
+GraphType=es_tr_lg_monitoring
+Granularities=-1
+Is_Resource_Graph=0
+GroupName=Infrastructure Testing Graphs
+GraphTitle=Controller and Load Generator Resources
+GraphXAxisName=Elapsed Time
+GraphYAxisName=
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=Last
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Displays a summary of system resources usage for the Controller and load generator machines.
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Resource usage
+ColumnCaption_3=Max
+ColumnCaption_4=Min
+ColumnCaption_5=Avg
+ColumnCaption_6=Std
+ColumnCaption_7=Last
+[13]
+GraphType=silk_general_counters
+Granularities=-1
+Is_Resource_Graph=0
+GroupName=Silk Performer Graphs
+GraphTitle=Silk General Counters
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=Count
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=SumPerSec
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Displays general counters from Silk Performer tests.
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Transaction
+ColumnCaption_3=Max
+ColumnCaption_4=Min
+ColumnCaption_5=Avg
+ColumnCaption_6=Std
+ColumnCaption_7=Last
+[14]
+GraphType=silk_data_counters
+Granularities=-1
+Is_Resource_Graph=0
+GroupName=Silk Performer Graphs
+GraphTitle=Silk Data Counters
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=Kilobytes [Kb]
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=SumPerSec
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Displays data counters from Silk Performer tests.
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Transaction
+ColumnCaption_3=Max
+ColumnCaption_4=Min
+ColumnCaption_5=Avg
+ColumnCaption_6=Std
+ColumnCaption_7=Last
+[15]
+GraphType=silk_timer_measurements
+Granularities=-1
+Is_Resource_Graph=0
+GroupName=Silk Performer Graphs
+GraphTitle=Silk Timer Measurements
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=Seconds [s]
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=SumPerSec
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Displays timer measurements from Silk Performer tests.
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Transaction
+ColumnCaption_3=Max
+ColumnCaption_4=Min
+ColumnCaption_5=Avg
+ColumnCaption_6=Std
+ColumnCaption_7=Last
+[16]
+GraphType=es_streaming_time
+Granularities=-1
+Is_Resource_Graph=0
+GroupName=Streaming State Statistic Graphs
+GraphTitle=Streaming Time
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=Streaming Time (sec)
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=Average
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Displays the time user have to wait for start, pause and seek during playing video.
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Transaction
+ColumnCaption_3=Max
+ColumnCaption_4=Min
+ColumnCaption_5=Avg
+ColumnCaption_6=Std
+ColumnCaption_7=Last
+[17]
+GraphType=es_sreaming_network
+Granularities=-1
+Is_Resource_Graph=0
+GroupName=Streaming State Statistic Graphs
+GraphTitle=Streaming Network
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=Bandwidth (Kbits/sec)
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=Average
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Displays network streaming statistic, Video Quality, Bandwidth and Download speed.
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Transaction
+ColumnCaption_3=Max
+ColumnCaption_4=Min
+ColumnCaption_5=Avg
+ColumnCaption_6=Std
+ColumnCaption_7=Last
+[18]
+GraphType=es_streaming_events
+Granularities=-1
+Is_Resource_Graph=0
+GroupName=Streaming State Statistic Graphs
+GraphTitle=Streaming Events
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=#Events
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=Sum
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Displays number of playing events, play, seek, pause and download retries, happens during video streaming.
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Transaction
+ColumnCaption_3=Max
+ColumnCaption_4=Min
+ColumnCaption_5=Avg
+ColumnCaption_6=Std
+ColumnCaption_7=Last
+[19]
+GraphType=es_streaming_videos
+Granularities=-1
+Is_Resource_Graph=0
+GroupName=Streaming State Statistic Graphs
+GraphTitle=Streaming Videos
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=#Videos
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=Sum
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Displays number of videos in certain state, buffering, playing and lagging.
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Transaction
+ColumnCaption_3=Max
+ColumnCaption_4=Min
+ColumnCaption_5=Avg
+ColumnCaption_6=Std
+ColumnCaption_7=Last
+[20]
+GraphType=es_tr_response_time
+Granularities=-1
+Is_Resource_Graph=0
+GroupName=Transaction Graphs
+GraphTitle=Trans Response Time
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=Response Time (sec)
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=Average
+ShowChaosEvents=YES
+Is_On_Panel=2
+Description=Displays the average time taken to perform transactions during each second of the load test. This graph helps you determine whether the performance of the server is within acceptable minimum and maximum transaction performance time ranges defined for your system.
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Transaction
+ColumnCaption_3=Max
+ColumnCaption_4=Min
+ColumnCaption_5=Avg
+ColumnCaption_6=Std
+ColumnCaption_7=Last
+[21]
+GraphType=es_tr_response_time_by_loc
+Granularities=-1
+Is_Resource_Graph=0
+GroupName=Transaction Graphs
+GraphTitle=Trans Response Time by Location
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=Response Time (sec)
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=Average
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Displays the average time taken to perform transactions grouped by virtual location during each second of the load test. This graph helps you determine whether the performance of the server is within acceptable minimum and maximum transaction performance time ranges defined for your system.
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Transaction
+ColumnCaption_3=Max
+ColumnCaption_4=Min
+ColumnCaption_5=Avg
+ColumnCaption_6=Std
+ColumnCaption_7=Last
+[22]
+GraphType=es_tr_tprange_pass
+Granularities=-1
+Is_Resource_Graph=0
+GroupName=Transaction Graphs
+GraphTitle=Trans/Sec (Passed)
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=#Transactions/sec
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=SumPerSec
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Displays the number of successful transactions performed during each second of a load test. This graph helps you determine the actual transaction load on your system at any given moment.
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Transaction
+ColumnCaption_3=Max
+ColumnCaption_4=Min
+ColumnCaption_5=Avg
+ColumnCaption_6=Std
+ColumnCaption_7=Last
+[23]
+GraphType=es_tr_tprange_pass_by_loc
+Granularities=-1
+Is_Resource_Graph=0
+GroupName=Transaction Graphs
+GraphTitle=Trans/Sec (Passed) by Location
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=#Transactions/sec
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=SumPerSec
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Displays the number of successful transactions performed and grouped by virtual location during each second of a load test. This graph helps you determine the actual transaction load on your system at any given moment.
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Transaction
+ColumnCaption_3=Max
+ColumnCaption_4=Min
+ColumnCaption_5=Avg
+ColumnCaption_6=Std
+ColumnCaption_7=Last
+[24]
+GraphType=es_tr_tprange_fail
+Granularities=-1
+Is_Resource_Graph=0
+GroupName=Transaction Graphs
+GraphTitle=Trans/Sec (Failed,Stopped)
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=#Transactions/sec
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=SumPerSec
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Displays the number of unsuccessful transactions performed during each second of a load test.
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Transaction
+ColumnCaption_3=Max
+ColumnCaption_4=Min
+ColumnCaption_5=Avg
+ColumnCaption_6=Std
+ColumnCaption_7=Last
+[25]
+GraphType=es_tr_tprange_fail_by_loc
+Granularities=-1
+Is_Resource_Graph=0
+GroupName=Transaction Graphs
+GraphTitle=Trans/Sec (Failed,Stopped) by Location
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=#Transactions/sec
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=SumPerSec
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Displays the number of unsuccessful transactions performed and grouped by virtual location during each second of a load test.
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Transaction
+ColumnCaption_3=Max
+ColumnCaption_4=Min
+ColumnCaption_5=Avg
+ColumnCaption_6=Std
+ColumnCaption_7=Last
+[26]
+GraphType=es_tr_total_trpass
+Granularities=-1
+Is_Resource_Graph=0
+GroupName=Transaction Graphs
+GraphTitle=Total Trans/Sec (Passed)
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=#Transactions/sec
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=SumPerSec
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Displays the number of all transactions performed during each second of a load test.
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Transaction
+ColumnCaption_3=Max
+ColumnCaption_4=Min
+ColumnCaption_5=Avg
+ColumnCaption_6=Std
+ColumnCaption_7=Last
+[27]
+GraphType=es_tr_trpass
+Granularities=-1
+Is_Resource_Graph=0
+GroupName=Transaction Graphs
+GraphTitle=Total Passed Trans
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=#Transactions
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=Sum
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Total Passed Trans
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Transaction
+ColumnCaption_3=Max
+ColumnCaption_4=Min
+ColumnCaption_5=Avg
+ColumnCaption_6=Std
+ColumnCaption_7=Last
+[28]
+GraphType=es_tr_trfail
+Granularities=-1
+Is_Resource_Graph=0
+GroupName=Transaction Graphs
+GraphTitle=Total Failed Trans
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=#Transactions
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=Sum
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Total Failed Trans
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Transaction
+ColumnCaption_3=Max
+ColumnCaption_4=Min
+ColumnCaption_5=Avg
+ColumnCaption_6=Std
+ColumnCaption_7=Last
+[29]
+GraphType=mic_conn
+Granularities=-1
+Is_Resource_Graph=0
+GroupName=Web Resource Graphs
+GraphTitle=Hits per Second
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=#Hits/sec
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=SumPerSec
+ShowChaosEvents=YES
+Is_On_Panel=3
+Description=Displays the number of hits made on the Web server by Vusers during each second of the load test. This graph helps you evaluate the amount of load Vusers generate, in terms of the number of hits.
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Web Resource
+ColumnCaption_3=Max
+ColumnCaption_4=Min
+ColumnCaption_5=Avg
+ColumnCaption_6=Std
+ColumnCaption_7=Last
+[30]
+GraphType=mic_recv
+Granularities=-1
+Is_Resource_Graph=0
+GroupName=Web Resource Graphs
+GraphTitle=Throughput
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=Bytes/sec
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=SumPerSec
+ShowChaosEvents=YES
+Is_On_Panel=4
+Description=Displays the amount of throughput (in bytes) on the Web server during the load test. Throughput represents the amount of data that the Vusers received from the server at any given second. This graph helps you to evaluate the amount of load Vusers generate, in terms of server throughput.
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Web Resource
+ColumnCaption_3=Max
+ColumnCaption_4=Min
+ColumnCaption_5=Avg
+ColumnCaption_6=Std
+ColumnCaption_7=Last
+[31]
+GraphType=mic_sent
+Granularities=-1
+Is_Resource_Graph=0
+GroupName=Web Resource Graphs
+GraphTitle=Bytes Sent per Second
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=Bytes/sec
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=SumPerSec
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Displays the amount of bytes sent to the Web server during the load test. Bytes sent represents the amount of data that the Vusers sent to the server at any given second.
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Web Resource
+ColumnCaption_3=Max
+ColumnCaption_4=Min
+ColumnCaption_5=Avg
+ColumnCaption_6=Std
+ColumnCaption_7=Last
+[32]
+GraphType=HTTP_RC
+Granularities=-1
+Is_Resource_Graph=0
+GroupName=Web Resource Graphs
+GraphTitle=HTTP Responses per Second
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=#HTTP/sec
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=SumPerSec
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Displays the number of the different HTTP status codes returned from the Web server during each second of the load test.
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Web Resource
+ColumnCaption_3=Max
+ColumnCaption_4=Min
+ColumnCaption_5=Avg
+ColumnCaption_6=Std
+ColumnCaption_7=Last
+[33]
+GraphType=WebSocket_Data
+Granularities=-1
+Is_Resource_Graph=0
+GroupName=Web Resource Graphs
+GraphTitle=WebSocket Statistics
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=#WebSocket/sec
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=SumPerSec
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Displays the data send and received, connection opened and failed by WebSocket per seconds (y-axis) at each point in time of the scenario or session step (x-axis)
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Web Resource
+ColumnCaption_3=Max
+ColumnCaption_4=Min
+ColumnCaption_5=Avg
+ColumnCaption_6=Std
+ColumnCaption_7=Last
+[34]
+GraphType=Pages_Ev
+Granularities=-1
+Is_Resource_Graph=0
+GroupName=Web Resource Graphs
+GraphTitle=Pages Downloaded per Second
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=#Pages/sec
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=SumPerSec
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Displays the number of pages recived from the Web server during the load test.
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Web Resource
+ColumnCaption_3=Max
+ColumnCaption_4=Min
+ColumnCaption_5=Avg
+ColumnCaption_6=Std
+ColumnCaption_7=Last
+[35]
+GraphType=Retries
+Granularities=-1
+Is_Resource_Graph=0
+GroupName=Web Resource Graphs
+GraphTitle=Retries per Second
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=#Retries/sec
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=SumPerSec
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Displays the number of attempted server connections during each second of the scenario run. A server connection is retried when the initial connection was unauthorized, when proxy authentication is required, when the initial connection was closed by the server, when the initial connection to the server could not be made, or when the server was initially unable to resolve the load generator's IP address.
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Web Resource
+ColumnCaption_3=Max
+ColumnCaption_4=Min
+ColumnCaption_5=Avg
+ColumnCaption_6=Std
+ColumnCaption_7=Last
+[36]
+GraphType=Web_Connections
+Granularities=-1
+Is_Resource_Graph=0
+GroupName=Web Resource Graphs
+GraphTitle=Connections
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=# of Connections
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=Sum
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Displays the number of open TCP/IP connections (y-axis) at each point in time of the scenario or session step (x-axis)
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Web Resource
+ColumnCaption_3=Max
+ColumnCaption_4=Min
+ColumnCaption_5=Avg
+ColumnCaption_6=Std
+ColumnCaption_7=Last
+[37]
+GraphType=Web_Connections_Per_Second
+Granularities=-1
+Is_Resource_Graph=0
+GroupName=Web Resource Graphs
+GraphTitle=Connections per Second
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=#Connections/sec
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=SumPerSec
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Displays the number of new TCP/IP connections (y-axis) opened and the number of connections that are shut down each second of the scenario or session step (x-axis).
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Web Resource
+ColumnCaption_3=Max
+ColumnCaption_4=Min
+ColumnCaption_5=Avg
+ColumnCaption_6=Std
+ColumnCaption_7=Last
+[38]
+GraphType=Web_SSL
+Granularities=-1
+Is_Resource_Graph=0
+GroupName=Web Resource Graphs
+GraphTitle=SSL per Second
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=#SSL/sec
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=SumPerSec
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Displays the number of new and reused SSL Connections (y-axis) opened in each second of the scenario or session step (x-axis).
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Web Resource
+ColumnCaption_3=Max
+ColumnCaption_4=Min
+ColumnCaption_5=Avg
+ColumnCaption_6=Std
+ColumnCaption_7=Last
+[39]
+GraphType=TruMobileCPUMessages
+Granularities=-1
+Is_Resource_Graph=0
+GroupName=TruClient Native Mobile
+GraphTitle=Total CPU Utilization Percentage
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=SumPerSec
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Displays a summary of TruClient Native Mobile Resources.
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Web Measurement
+ColumnCaption_3=Max
+ColumnCaption_4=Min
+ColumnCaption_5=Avg
+ColumnCaption_6=Std
+ColumnCaption_7=Last
+[40]
+GraphType=TruMobileFreeMemoryMessages
+Granularities=-1
+Is_Resource_Graph=0
+GroupName=TruClient Native Mobile
+GraphTitle=Total Free Memory in Devices
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=SumPerSec
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Displays a summary of TruClient Native Mobile Resources.
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Web Measurement
+ColumnCaption_3=Max
+ColumnCaption_4=Min
+ColumnCaption_5=Avg
+ColumnCaption_6=Std
+ColumnCaption_7=Last
+[41]
+GraphType=TruMobileMemoryMessages
+Granularities=-1
+Is_Resource_Graph=0
+GroupName=TruClient Native Mobile
+GraphTitle=Total Memory Consumed by Application
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=SumPerSec
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Displays a summary of TruClient Native Mobile Resources.
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Web Measurement
+ColumnCaption_3=Max
+ColumnCaption_4=Min
+ColumnCaption_5=Avg
+ColumnCaption_6=Std
+ColumnCaption_7=Last
+[42]
+GraphType=CS_DOMInteractive
+Granularities=-1
+Is_Resource_Graph=0
+GroupName=Client-Side Measurements
+GraphTitle=DOM Interactive
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=Time (msec)
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=Average
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Displays the average time per document, in milliseconds, since the browser has finished parsing all of the HTML and DOM construction is complete
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Client-Side Measurement
+ColumnCaption_3=Max
+ColumnCaption_4=Min
+ColumnCaption_5=Avg
+ColumnCaption_6=Std
+ColumnCaption_7=Last
+[43]
+GraphType=CS_DOMContentLoadedDuration
+Granularities=-1
+Is_Resource_Graph=0
+GroupName=Client-Side Measurements
+GraphTitle=Page DOMContentLoaded Event duration
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=Duration (msec)
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=Average
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Displays the average time per document, in milliseconds, it takes for DOMContentLoaded to occur (a point when the document has been completely loaded and parsed without waiting for stylesheets, images and subframes to finish loading)
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Client-Side Measurement
+ColumnCaption_3=Max
+ColumnCaption_4=Min
+ColumnCaption_5=Avg
+ColumnCaption_6=Std
+ColumnCaption_7=Last
+[44]
+GraphType=CS_PageLoadDuration
+Granularities=-1
+Is_Resource_Graph=0
+GroupName=Client-Side Measurements
+GraphTitle=Page Load Event duration
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=Duration (msec)
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=Average
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Displays the average time per document, in milliseconds, it takes for Load event to occur (a point when the whole page has loaded, including all dependent resources such as stylesheets and images)
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Client-Side Measurement
+ColumnCaption_3=Max
+ColumnCaption_4=Min
+ColumnCaption_5=Avg
+ColumnCaption_6=Std
+ColumnCaption_7=Last
+[45]
+GraphType=es_rm_svr_res_nt
+Granularities=1
+Is_Resource_Graph=1
+GroupName=System Resource Graphs
+GraphTitle=Windows Resources
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=Average
+ShowChaosEvents=YES
+Is_On_Panel=5
+Description=Displays a summary of the System Resources usage for each Windows based host.
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Measurement
+ColumnCaption_3=Machine
+ColumnCaption_4=Max
+ColumnCaption_5=Min
+ColumnCaption_6=Avg
+ColumnCaption_7=Std
+ColumnCaption_8=Last
+[46]
+GraphType=WAN_EMULATION_CLOUD_AVG_LATENCY
+Granularities=1
+Is_Resource_Graph=1
+GroupName=Network Virtualization Graphs
+GraphTitle=Average Latency
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=Latency (msec)
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=Average
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Displays a Average latency for specified  Network Virtualization Emulation.
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Measurement
+ColumnCaption_3=Machine
+ColumnCaption_4=Max
+ColumnCaption_5=Min
+ColumnCaption_6=Avg
+ColumnCaption_7=Std
+ColumnCaption_8=Last
+[47]
+GraphType=WAN_EMULATION_CLOUD_PACKET_LOSS
+Granularities=1
+Is_Resource_Graph=1
+GroupName=Network Virtualization Graphs
+GraphTitle=Packet Loss
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=Packet Loss
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=Average
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Displays a Packet loss for specified  Network Virtualization Emulation.
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Measurement
+ColumnCaption_3=Machine
+ColumnCaption_4=Max
+ColumnCaption_5=Min
+ColumnCaption_6=Avg
+ColumnCaption_7=Std
+ColumnCaption_8=Last
+[48]
+GraphType=WAN_EMULATION_NIC_BPS
+Granularities=1
+Is_Resource_Graph=1
+GroupName=Network Virtualization Graphs
+GraphTitle=Average Throughput
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=Bits/sec
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=Average
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Displays a Average throughput for specified  Network Virtualization Emulation.
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Measurement
+ColumnCaption_3=Machine
+ColumnCaption_4=Max
+ColumnCaption_5=Min
+ColumnCaption_6=Avg
+ColumnCaption_7=Std
+ColumnCaption_8=Last
+[49]
+GraphType=WAN_EMULATION_NIC_BW_UTIL
+Granularities=1
+Is_Resource_Graph=1
+GroupName=Network Virtualization Graphs
+GraphTitle=Average Bandwidth Utilization
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=Bandwidth Utilization (%)
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=Average
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Displays a Average bandwidth utilization for specified  Network Virtualization Emulation.
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Measurement
+ColumnCaption_3=Machine
+ColumnCaption_4=Max
+ColumnCaption_5=Min
+ColumnCaption_6=Avg
+ColumnCaption_7=Std
+ColumnCaption_8=Last
+[50]
+GraphType=WAN_EMULATION_NIC_TOTAL
+Granularities=1
+Is_Resource_Graph=1
+GroupName=Network Virtualization Graphs
+GraphTitle=Total Throughput
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=Kilobytes
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=Average
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Displays a Total throughput for specified  Network Virtualization Emulation.
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Measurement
+ColumnCaption_3=Machine
+ColumnCaption_4=Max
+ColumnCaption_5=Min
+ColumnCaption_6=Avg
+ColumnCaption_7=Std
+ColumnCaption_8=Last
+[51]
+GraphType=es_rm_svr_rstat_unix
+Granularities=1
+Is_Resource_Graph=1
+GroupName=System Resource Graphs
+GraphTitle=UNIX Resources
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=Average
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Displays a summary of the System Resources usage for each UNIX based host.
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Measurement
+ColumnCaption_3=Machine
+ColumnCaption_4=Max
+ColumnCaption_5=Min
+ColumnCaption_6=Avg
+ColumnCaption_7=Std
+ColumnCaption_8=Last
+[52]
+GraphType=SiteScope
+Granularities=1
+Is_Resource_Graph=1
+GroupName=SiteScope Graphs
+GraphTitle=SiteScope
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=Average
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Displays measurements reported by SiteScope.
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Measurement
+ColumnCaption_3=Machine
+ColumnCaption_4=Max
+ColumnCaption_5=Min
+ColumnCaption_6=Avg
+ColumnCaption_7=Std
+ColumnCaption_8=Last
+[53]
+GraphType=ServiceVirtualization
+Granularities=1
+Is_Resource_Graph=1
+GroupName=ServiceVirtualization Graphs
+GraphTitle=ServiceVirtualization
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=Average
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Displays measurements reported by Service Virtualization.
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Measurement
+ColumnCaption_3=Machine
+ColumnCaption_4=Max
+ColumnCaption_5=Min
+ColumnCaption_6=Avg
+ColumnCaption_7=Std
+ColumnCaption_8=Last
+[54]
+GraphType=es_rm_svr_res_nt_asp
+Granularities=1
+Is_Resource_Graph=1
+GroupName=Web Application Server Graphs
+GraphTitle=MS Active Server Pages
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=Average
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Displays a summary of resources on MS Active Server Pages web application server.
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Measurement
+ColumnCaption_3=Machine
+ColumnCaption_4=Max
+ColumnCaption_5=Min
+ColumnCaption_6=Avg
+ColumnCaption_7=Std
+ColumnCaption_8=Last
+[55]
+GraphType=Apache
+Granularities=1
+Is_Resource_Graph=1
+GroupName=Web Server Resource Graphs
+GraphTitle=Apache
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=Average
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Displays a summary of resources on Apache web server.
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Measurement
+ColumnCaption_3=Machine
+ColumnCaption_4=Max
+ColumnCaption_5=Min
+ColumnCaption_6=Avg
+ColumnCaption_7=Std
+ColumnCaption_8=Last
+[56]
+GraphType=es_rm_svr_res_nt_iis
+Granularities=1
+Is_Resource_Graph=1
+GroupName=Web Server Resource Graphs
+GraphTitle=MS IIS
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=Average
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Displays a summary of resources on MsIIS web server.
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Measurement
+ColumnCaption_3=Machine
+ColumnCaption_4=Max
+ColumnCaption_5=Min
+ColumnCaption_6=Avg
+ColumnCaption_7=Std
+ColumnCaption_8=Last
+[57]
+GraphType=es_rm_cm_netmon
+Granularities=3
+Is_Resource_Graph=1
+GroupName=Network Graphs
+GraphTitle=Network Delay Time
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=Delay (msec)
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=Average
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Displays the network related delays over the path specified in the Network monitor.
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Measurement
+ColumnCaption_3=Network Type
+ColumnCaption_4=Max
+ColumnCaption_5=Min
+ColumnCaption_6=Avg
+ColumnCaption_7=Std
+ColumnCaption_8=Last
+[58]
+GraphType=Oracle
+Granularities=1
+Is_Resource_Graph=1
+GroupName=Database Server Resource Graphs
+GraphTitle=Oracle
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=Average
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Displays a summary of Oracle Resources.
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Measurement
+ColumnCaption_3=Machine
+ColumnCaption_4=Max
+ColumnCaption_5=Min
+ColumnCaption_6=Avg
+ColumnCaption_7=Std
+ColumnCaption_8=Last
+[59]
+GraphType=es_rm_svr_res_nt_mssql65
+Granularities=1
+Is_Resource_Graph=1
+GroupName=Database Server Resource Graphs
+GraphTitle=SQL Server
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=Average
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Displays a summary of SQL Server Resources.
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Measurement
+ColumnCaption_3=Machine
+ColumnCaption_4=Max
+ColumnCaption_5=Min
+ColumnCaption_6=Avg
+ColumnCaption_7=Std
+ColumnCaption_8=Last
+[60]
+GraphType=es_rm_svr_res_nt_citrix
+Granularities=1
+Is_Resource_Graph=1
+GroupName=Application Deployment Solutions
+GraphTitle=Citrix Server
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=Average
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Displays a summary of Citrix Server Resources.
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Measurement
+ColumnCaption_3=Machine
+ColumnCaption_4=Max
+ColumnCaption_5=Min
+ColumnCaption_6=Avg
+ColumnCaption_7=Std
+ColumnCaption_8=Last
+[61]
+GraphType=DynatraceMonitorSaaS
+Granularities=1
+Is_Resource_Graph=1
+GroupName=Dynatrace Graphs
+GraphTitle=Dynatrace SaaS / Managed
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=Average
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Displays measurements reported by Dynatrace SaaS / Managed server.
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Measurement
+ColumnCaption_3=Machine
+ColumnCaption_4=Max
+ColumnCaption_5=Min
+ColumnCaption_6=Avg
+ColumnCaption_7=Std
+ColumnCaption_8=Last
+[62]
+GraphType=AzureInsights
+Granularities=1
+Is_Resource_Graph=1
+GroupName=Microsoft Azure
+GraphTitle=Azure Insights
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=Average
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Displays measurements reported by Microsoft Azure Insights Metric system.
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Measurement
+ColumnCaption_3=Machine
+ColumnCaption_4=Max
+ColumnCaption_5=Min
+ColumnCaption_6=Avg
+ColumnCaption_7=Std
+ColumnCaption_8=Last
+[63]
+GraphType=Prometheus
+Granularities=1
+Is_Resource_Graph=1
+GroupName=Prometheus Graphs
+GraphTitle=Prometheus
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=Average
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Displays measurements reported by Prometheus Metric system.
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Measurement
+ColumnCaption_3=Machine
+ColumnCaption_4=Max
+ColumnCaption_5=Min
+ColumnCaption_6=Avg
+ColumnCaption_7=Std
+ColumnCaption_8=Last
+[64]
+GraphType=Datadog
+Granularities=1
+Is_Resource_Graph=1
+GroupName=Datadog Graphs
+GraphTitle=Datadog
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=Average
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Displays measurements reported by Datadog.
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Measurement
+ColumnCaption_3=Machine
+ColumnCaption_4=Max
+ColumnCaption_5=Min
+ColumnCaption_6=Avg
+ColumnCaption_7=Std
+ColumnCaption_8=Last
+[65]
+GraphType=CaApmMonitor
+Granularities=1
+Is_Resource_Graph=1
+GroupName=CA APM Graphs
+GraphTitle=CA APM
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=Average
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Displays measurements reported by CaApm.
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Measurement
+ColumnCaption_3=Machine
+ColumnCaption_4=Max
+ColumnCaption_5=Min
+ColumnCaption_6=Avg
+ColumnCaption_7=Std
+ColumnCaption_8=Last
+[66]
+GraphType=MQTTMonitor
+Granularities=1
+Is_Resource_Graph=1
+GroupName=MQTT Statistic Graphs
+GraphTitle=MQTT $SYS Topics
+GraphXAxisName=Elapsed Time (Hour:Min:Sec)
+GraphYAxisName=
+XAxisLabelsStyle=RelativeTime
+AggregateFunction=Average
+ShowChaosEvents=YES
+Is_On_Panel=-1
+Description=Displays a selected SYS topics.
+ColumnCaption_0=Color
+ColumnCaption_1=Scale
+ColumnCaption_2=Measurement
+ColumnCaption_3=Machine
+ColumnCaption_4=Max
+ColumnCaption_5=Min
+ColumnCaption_6=Avg
+ColumnCaption_7=Std
+ColumnCaption_8=Last
+
+}
+
+{LRExtensions
+
+{lr_monitors
+LoadRunnerMonitoringVersion=IntV1|1
+
+{Configuration
+ConfigurationVersion=IntV1|1
+ExpertMode=StringV1|False
+ShowInternalObjs=StringV1|False
+DebugMode=StringV1|False
+DebugLevel=IntV1|0
+PopupErrors=StringV1|True
+AutoResMonRun=StringV1|False
+IndirectLocalMachineMonitoring=StringV1|True
+SamplingRate=IntV1|3000
+}
+
+{ResourceMonitoring
+ResourceMonitoringDomainVersion=IntV1|1
+EnabledMode=StringV1|True
+DualMonitorsMap=StringV1|<DualMonitor><Monitor name="es_rm_svr_res_nt" IsLRMonitorActive="1"/></DualMonitor>
+
+{ResourceMonitoringMachines
+ResourceMonitoringMachinesVersion=IntV1|1
+MachinesCount=IntV1|1
+
+{ResourceMonitoredMachine
+ResourceMonitoringMachineVersion=IntV1|1
+MonitoredMachineName=StringV1|localhost
+MonMachinePlatform=IntV1|14
+
+{ItemList
+CMPIListVersion=IntV1|1
+ListCount=IntV1|1
+
+{MonItemPlus
+MonItemPlusVersion=IntV1|1
+MonitorId=IntV1|5705
+
+{MonItem
+CustomPerfItemV1=IntV1|1
+ObjId=StringV1|Processor|% Processor Time|_Total
+Name=StringV1|% Processor Time (Processor _Total)
+Data=StringV1|
+Description=StringV1|% Processor Time is the percentage of elapsed time that the processor spends to execute a non-Idle thread. It is calculated by measuring the percentage of time that the processor spends executing the idle thread and then subtracting that value from 100%. (Each processor has an idle thread that consumes cycles when no other threads are ready to run). This counter is the primary indicator of processor activity, and displays the average percentage of busy time observed during the sample interval. It should be noted that the accounting calculation of whether the processor is idle is performed at an internal sampling interval of the system clock (10ms). On todays fast processors, % Processor Time can therefore underestimate the processor utilization as the processor may be spending a lot of time servicing threads between the system clock sampling interval. Workload based timer applications are one example  of applications  which are more likely to be measured inaccurately as timers are signaled just after the samplocalhost
+ObjectType=IntV1|0
+DisplayerName=StringV1|es_rm_svr_res_nt
+}
+}
+}
+}
+}
+}
+}
+}
+
+{ScenarioDiagnostics
+XMLData=<Mediators distribution = "1" enabled= "1" ><Mediator type= "SARM" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type= "OracleDB" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type= "WebPage" enabled= "1" ></Mediator><Mediator type= "J2EE" enabled= "0" ></Mediator><Mediator type= "SiebelDB" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type="SAP" enabled="0"><Machine name="" type="Win2000"><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY><SERVER host="" instance="" RouterString=""><LOGIN username="" password="643cea67e" client_num=""/></SERVER></TOPOLOGY></Mediator></Mediators>
+}
+
+{ScenarioSchedulerConfig
+<?xml version="1.0" encoding="utf-16"?>
+<LoadTest>
+  <EvtScenarioCfg>iGH2_GgHGvLAWi71fNr1Xrz8TPTchc9CE1BoHM0h3T1H0tMeZmRszWHrq70WDQWMepziTFHoBP7ELRopwgoIUYYHR4QDbpDCuzr8Q86GlAw3JZYe03EiAYtJ1lLJZhsI5va-Tqw_Ud6aFhWXWHlFIBA4ynIZ6FJIE1qOUJL0FFdSDLO-9CH5LRVxxk0gjYapGaFDbmVvATcDje6PuTl8yXXQuSwYdMoHOeRdOAxzZV1c3y0Rt9GnTVvMzlSalRkKWvD3wXndRGtal0NUCXOihW0GDsBt1suR8yZBRNYa-sk.</EvtScenarioCfg>
+  <Schedulers>
+    <CurrentSchedulerId>1</CurrentSchedulerId>
+    <StartMode>
+      <StartModeType>Immediately</StartModeType>
+      <StartModes>
+        <Immediately />
+        <DelayAfterLTStart>0</DelayAfterLTStart>
+        <StartAt>2023-04-16T16:18:52.2496742+05:30</StartAt>
+      </StartModes>
+    </StartMode>
+    <Scheduler ID="1">
+      <Name>Schedule 1</Name>
+      <Manual>
+        <SchedulerType>Global</SchedulerType>
+        <DisruptionScheduler Count="0" />
+        <Global>
+          <Scheduling>
+            <IsDefaultScheduler>false</IsDefaultScheduler>
+            <DynamicScheduling>
+              <RampUp>
+                <StartCondition>
+                  <PrevAction />
+                </StartCondition>
+                <Batch>
+                  <Count>3</Count>
+                  <Interval>1</Interval>
+                </Batch>
+                <TotalVusersNumber>10</TotalVusersNumber>
+              </RampUp>
+              <Duration>
+                <StartCondition>
+                  <PrevAction />
+                </StartCondition>
+                <RunFor>900</RunFor>
+              </Duration>
+              <RampUp>
+                <StartCondition>
+                  <PrevAction />
+                </StartCondition>
+                <Batch>
+                  <Count>3</Count>
+                  <Interval>1</Interval>
+                </Batch>
+                <TotalVusersNumber>15</TotalVusersNumber>
+              </RampUp>
+              <Duration>
+                <StartCondition>
+                  <PrevAction />
+                </StartCondition>
+                <RunFor>900</RunFor>
+              </Duration>
+              <Run>
+                <StartCondition>
+                  <PrevAction />
+                </StartCondition>
+                <TotalVusersNumber>15</TotalVusersNumber>
+              </Run>
+              <Duration>
+                <StartCondition>
+                  <PrevAction />
+                </StartCondition>
+                <RunFor>1800</RunFor>
+              </Duration>
+              <RampDownAll>
+                <StartCondition>
+                  <PrevAction />
+                </StartCondition>
+                <Batch>
+                  <Count>5</Count>
+                  <Interval>1</Interval>
+                </Batch>
+              </RampDownAll>
+            </DynamicScheduling>
+          </Scheduling>
+        </Global>
+        <Groups>
+          <InitAllBeforeStart>false</InitAllBeforeStart>
+        </Groups>
+      </Manual>
+    </Scheduler>
+  </Schedulers>
+</LoadTest>
+}
+
+{ScenarioGroupsData
+
+{SCHED_GROUP_DATA
+SCHED_GROUP_NAME=crmrecruit_blazedemo
+TEST_PERCENT_DISTRIBUTION=100.00
+SCHED_USE_ANY_HOST=0
+TEST_HOSTS_NAMES=localhost
+}
+}
+
+{ScenarioSLAConfig
+<?xml version="1.0" encoding="UTF-8"?><SLA Version="1.0"><TxList><Tx>vuser_end_Transaction</Tx><Tx>T04_Confirmation</Tx><Tx>vuser_init_Transaction</Tx><Tx>T02_FindFlights</Tx><Tx>T01_Launch</Tx><Tx>T03_ChooseFlight</Tx><Tx>Action_Transaction</Tx></TxList><SLARules><TrackingPeriodType>Default</TrackingPeriodType><TrackingPeriodValue></TrackingPeriodValue><TrackingPeriodTimeScale></TrackingPeriodTimeScale></SLARules></SLA>
+}
+
+{ScenarioSEVConfig
+LEN=0
+
+}
+
+{ScenarioWANEmualtionSetting
+WanEnable=0
+WANEmulationMode=1
+
+{WANEmulationLocationXML
+<locations>
+<location id="00000000-0000-0000-0000-000000000000" name="None"><emulation><modes><mode type="custom"><params><param name="latency">0</param><param name="packet_loss">0</param><param name="bandwidthDown">0</param><param name="bandwidthUp">0</param></params></mode></modes></emulation><configuration version="2.0"><settings><setting type="settings"><params><param name="capture_packets">false</param><param name="shared_bandwidth">false</param></params></setting><setting type="ip_filter"><params><param name="mode">exclude</param></params></setting></settings></configuration><description></description></location>
+</locations>
+}
+
+{LocAssignedToHost
+localhost=00000000-0000-0000-0000-000000000000
+}
+
+{LocAssignedToGroup
+CRMRecruit_Blazedemo=00000000-0000-0000-0000-000000000000
+}
+
+{LocAssignedToTest
+CRMRecruit_Blazedemo=00000000-0000-0000-0000-000000000000
+}
+}

@@ -1,0 +1,5 @@
+[Diagnostics]
+Status=-1
+[Collate Recovery]
+Scenario=C:\Users\SD070635\OneDrive - Cerner Corporation\Documents\Fiddler2\Captures\CRMRecruit_Blazedemo\Scenario\RecruitCRM_Assignment_Scenario.lrs
+Completed=0
